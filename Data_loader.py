@@ -16,6 +16,7 @@ def data_create(path):
 def address_reader(pre,research_num=1,day_num=1):
     name=pre+"/Research "+str(research_num)+"/Day "+str(day_num)+"/Day "+str(day_num)+".csv"
     return name
+    
 def add_label(length,label,data):
     label0= pd.DataFrame(label, columns=['label'])
     data['label']=label0
